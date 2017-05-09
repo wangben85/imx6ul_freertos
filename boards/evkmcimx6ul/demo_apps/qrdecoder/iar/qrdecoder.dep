@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1216244083</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>ddr_debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\ddr_debug\obj\qrdecoder.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\system_MCIMX6G3.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_debug_console.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\qrdecoder.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\ddr_debug\qrdecoder.bin</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\CORTEXA\Include\core_ca7.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\fsl_device_registers.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\CORTEXA\Include\cortexa_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\qrdecoder_rgb.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\MCIMX6G3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\CORTEXA\Include\core_ca.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\MCIMX6G3_features.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\ddr_debug\list\qrdecoder.map</file>
+      <file>$TOOLKIT_DIR$\lib\rt7Sx_tl.a</file>
+      <file>$TOOLKIT_DIR$\lib\dl7Sx_tln.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\MCIMX6G3.h</file>
+      <file>$TOOLKIT_DIR$\lib\sh7Sxs_l.a</file>
+      <file>$TOOLKIT_DIR$\lib\m7Sx_tlv.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\MCIMX6G3xxx05_ram.icf</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\board.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\startup_MCIMX6G3.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_csi_camera_adapter.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_sccb.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_elcdif.c</file>
+      <file>$PROJ_DIR$\ddr_debug\qrdecoder.out</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_elcdif.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_csi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_csi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\iar\startup_MCIMX6G3.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_pxp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_pxp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\utilities\fsl_debug_console.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\system_MCIMX6G3.h</file>
+      <file>$PROJ_DIR$\..\qrdecoder.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\system_MCIMX6G3.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\utilities\fsl_debug_console.h</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_common.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_clock.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_gpio.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_uart.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_pxp.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_elcdif.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_csi.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_i2c.o</file>
+      <file>$PROJ_DIR$\..\csi_ccir656.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CORTEXA\Include\core_ca7.h</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\csi_ccir656.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\fsl_device_registers.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CORTEXA\Include\core_ca.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\CORTEXA\Include\cortexa_iar.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlpp7Sx_tl_nc.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\MCIMX6G3_features.h</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\qrdecoder_yuv.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\qrdecoder_yuv.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\qrdecoder_rgb.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_ov5640.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\pin_mux.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\clock_config_ocram.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\clock_config.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\pin_mux.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\clock_config.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\board.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\qrdecoder_rgb.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_clock.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_clock.h</file>
+      <file>$PROJ_DIR$\..\clock_config.h</file>
+      <file>$PROJ_DIR$\..\board.h</file>
+      <file>$PROJ_DIR$\..\pin_mux.c</file>
+      <file>$PROJ_DIR$\..\board.c</file>
+      <file>$PROJ_DIR$\..\clock_config_ocram.c</file>
+      <file>$PROJ_DIR$\..\clock_config.c</file>
+      <file>$PROJ_DIR$\..\pin_mux.h</file>
+      <file>$PROJ_DIR$\..\fsl_camera.h</file>
+      <file>$PROJ_DIR$\..\fsl_camera_device.h</file>
+      <file>$PROJ_DIR$\..\fsl_camera_receiver.h</file>
+      <file>$PROJ_DIR$\..\fsl_csi_camera_adapter.c</file>
+      <file>$PROJ_DIR$\..\fsl_csi_camera_adapter.h</file>
+      <file>$PROJ_DIR$\..\fsl_ov5640.c</file>
+      <file>$PROJ_DIR$\..\fsl_ov5640.h</file>
+      <file>$PROJ_DIR$\..\fsl_sccb.c</file>
+      <file>$PROJ_DIR$\..\fsl_sccb.h</file>
+      <file>$PROJ_DIR$\..\fsl_video_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_csi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_csi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_elcdif.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_elcdif.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_i2c.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_iomuxc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_pxp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_pxp.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_uart.h</file>
+      <file>$PROJ_DIR$\..\qrdecoder_rgb.c</file>
+      <file>$PROJ_DIR$\..\qrdecoder_yuv.c</file>
+      <file>$PROJ_DIR$\..\zxing_bridge.h</file>
+      <file>$PROJ_DIR$\..\zxing_lib.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\iar\startup_MCIMX6G3.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\system_MCIMX6G3.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\system_MCIMX6G3.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\utilities\fsl_debug_console.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\utilities\fsl_debug_console.h</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\clock_config_ocram.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\board.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_ov5640.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_i2c.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_csi.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_csi_camera_adapter.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_common.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_elcdif.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_clock.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_sccb.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_pxp.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_uart.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\qrdecoder.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\system_MCIMX6G3.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_debug_console.__cstat.et</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\csi_ccir656.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\csi_ccir656.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_clock.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_clock.c</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\qrdecoder.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\system_MCIMX6G3.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_debug_console.o</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\clock_config_ocram.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\clock_config.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\pin_mux.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_csi_camera_adapter.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_ov5640.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_sccb.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_clock.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_common.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_csi.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_elcdif.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_gpio.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_i2c.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_pxp.pbi</file>
+      <file>$PROJ_DIR$\ddr_debug\obj\fsl_uart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\..\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\qrdecoder\qrdecoder_yuv.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 44 28</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_elcdif.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ddr_debug\qrdecoder.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 38 87 84 83 62 61 67 41 157 66 63 68 81 65 42 64 82 21 40 156 127 32 29 76 33 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_csi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 137</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\iar\startup_MCIMX6G3.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 40 72</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_pxp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\utilities\fsl_debug_console.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\qrdecoder.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45 151 15 6 8 16 20 23 18 12 9 14 5 11 4 10 17 31 13 24 19 26 27 57 25 152 55 101 110 103 102 95 94 60 49 47 105 107 109 52 100</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\system_MCIMX6G3.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\csi_ccir656.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93 121 101 110 103 102 95 94 132 116 112 105 107 109 118 100</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 10 12 6 9 5 8 14 15 73 16 18 20 23 11 22 130 27 90 4 77 70 74 75 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 6 15 8 130 5 23 11 22 9 10 93 18 20 27 132 14 73 12 4 77 70 90 74 75 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93 132</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\pin_mux.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 15 6 12 23 11 22 14 73 130 5 27 119 9 10 93 16 18 20 90 4 77 70 74 75 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 5 6 8 9 95 10 93 12 11 70 14 75 90 132 15 73 16 18 20 23 77 74 26 94 22 130 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93 132 95 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\clock_config_ocram.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 6 8 70 14 11 77 94 22 130 74 12 4 75 73 5 16 18 20 23 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73 22 70 14 6 8 16 20 23 18 12 5 11 4 74 75 26 27 130 77 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\clock_config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 93 9 8 18 20 6 5 16 23 11 22 130 14 94 15 73 12 4 77 70 27 90 74 75 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\fsl_csi_camera_adapter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 10 93 12 8 70 14 90 9 4 75 112 5 103 105 110 15 73 16 18 20 23 11 77 74 26 101 22 130 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101 110 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93 103 112 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\fsl_ov5640.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 73 8 18 20 102 15 16 23 6 118 101 107 90 9 5 10 93 12 11 4 22 130 27 110 77 70 74 75 26 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93 101 102 107 109 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\fsl_sccb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 18 8 20 73 118 14 77 15 16 23 6 74 26 109 9 5 10 93 12 4 70 75 90 22 130 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93 109 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_csi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 137</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 73 8 18 20 15 16 23 6 90 9 5 10 93 12 11 22 130 27 112 4 77 70 74 75 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_elcdif.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 16 6 8 15 23 14 73 18 20 9 5 10 93 12 11 4 22 130 27 114 77 70 74 75 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 10 93 12 8 9 11 90 5 4 14 15 73 16 18 20 23 22 130 27 116 77 70 74 75 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 8 9 5 4 70 14 75 10 93 12 11 77 74 26 73 90 15 16 18 20 23 22 130 27 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_pxp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 15 16 6 8 14 73 18 20 90 9 5 10 93 12 11 22 130 27 121 4 77 70 74 75 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 16 6 8 130 5 15 23 11 22 90 14 73 18 20 9 10 93 12 4 77 70 74 75 26 123</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\qrdecoder_rgb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 4 75 90 112 6 70 14 102 126 8 9 101 132 107 10 93 12 11 77 74 26 73 121 103 95 116 105 100 15 16 18 20 23 22 130 27 110 109 114 94 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93 121 101 110 103 102 95 94 132 116 112 105 107 109 118 100 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\qrdecoder_yuv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 16 6 112 8 130 5 102 126 15 23 11 22 90 101 132 107 14 73 18 20 9 121 103 95 116 105 100 10 93 12 4 77 70 74 75 26 110 109 114 94 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114 90 15 6 8 16 20 23 18 12 9 14 5 11 4 10 73 22 70 74 75 26 27 130 77 93 121 101 110 103 102 95 94 132 116 112 105 107 109 118 100 126</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\iar\startup_MCIMX6G3.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\system_MCIMX6G3.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 20 6 27 70 8 16 23 77 73 12 22 130 5 14 74 11 4 75 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14 6 8 16 20 23 18 12 73 22 70 5 11 4 74 75 26 27 130 77</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\devices\MCIMX6G3\utilities\fsl_debug_console.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 157</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 6 23 90 15 123 73 8 11 16 14 36 20 37 22 130 5 27 35 132 12 34 9 10 93 4 77 70 74 88 75 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35 6 8 16 20 23 18 12 11 36 37 34 132 90 15 9 14 5 4 10 73 22 70 74 75 26 27 130 77 93 123</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_elcdif.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_csi.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_gpio.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_uart.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_i2c.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_pxp.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\utilities\fsl_debug_console.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\system_MCIMX6G3.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_common.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\devices\MCIMX6G3\drivers\fsl_clock.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\qrdecoder_rgb.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\qrdecoder_yuv.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>ddr_release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

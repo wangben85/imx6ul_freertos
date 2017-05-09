@@ -1,0 +1,422 @@
+###############################################################################
+#
+# IAR ELF Linker V7.80.2.11947/W32 for ARM                05/Apr/2017  09:50:02
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\hello_world.out
+#    Map file     =  
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\list\hello_world.map
+#    Command line =  
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\obj\board.o
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\obj\clock_config.o
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\obj\clock_config_ocram.o
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\obj\fsl_clock.o
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\obj\fsl_common.o
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\obj\fsl_debug_console.o
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\obj\fsl_uart.o
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\obj\hello_world.o
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\obj\pin_mux.o
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\obj\startup_MCIMX6G3.o
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\obj\system_MCIMX6G3.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\hello_world.out
+#        --map
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\list\hello_world.map
+#        --config
+#        C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar/MCIMX6G3xxx05_ram.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x80002000 { ro section .intvec };
+"P1":  place in [from 0x00900000 to 0x0091feff] { first section OcramData };
+"P2":  place in [from 0x00900000 to 0x0091feff] {
+          rw object clock_config_ocram.o };
+"P3":  place in [from 0x0091ff00 to 0x0091ffff] { block RSTACK };
+"P4":  place in [from 0x80002000 to 0x8000203f] |
+                [from 0x80002040 to 0x803fffff] { ro };
+"P6":  place in [from 0x80400000 to 0x807ff7ff] { block RW };
+"P7":  place in [from 0x80400000 to 0x807ff7ff] { block ZI };
+"P9":  place in [from 0x807ff800 to 0x807ffbff] { block CSTACK };
+"P10": place in [from 0x807ffc00 to 0x807fffff] { block ISTACK };
+initialize by copy {
+   rw, section .textrw, object clock_config_ocram.o section .text,
+   object clock_config_ocram.o section .rodata };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"P1":                                     0x4000
+  OcramData          zero     0x00900000  0x4000  board.o [1]
+                            - 0x00904000  0x4000
+
+"P2":                                      0x48c
+  P2 s0                       0x00904000   0x48c  <Init block>
+    .text            inited   0x00904000   0x48c  clock_config_ocram.o [1]
+                            - 0x0090448c   0x48c
+
+"P3":                                      0x100
+  RSTACK                      0x0091ff00   0x100  <Block>
+    RSTACK           uninit   0x0091ff00   0x100  <Block tail>
+                            - 0x00920000   0x100
+
+"A0":                                       0x3c
+  .intvec            ro code  0x80002000    0x3c  startup_MCIMX6G3.o [1]
+                            - 0x8000203c    0x3c
+
+"P4", part 1 of 2:                           0x0
+  .rodata            const    0x8000203c     0x0  zero_init3.o [5]
+  .rodata            const    0x8000203c     0x0  copy_init3.o [5]
+
+"P4", part 2 of 2:                        0x2558
+  .text              ro code  0x80002040   0x5e0  fsl_uart.o [1]
+  .text              ro code  0x80002620    0x1c  fsl_common.o [1]
+  .text              ro code  0x8000263c   0x4a2  fsl_debug_console.o [1]
+  .text              ro code  0x80002ae0    0x54  strlen.o [5]
+  .text              ro code  0x80002b34   0x384  board.o [1]
+  .text              ro code  0x80002eb8    0x74  ABImemset.o [5]
+  .text              ro code  0x80002f2c   0x290  fsl_clock.o [1]
+  .text              ro code  0x800031bc    0xb0  ABImemcpy.o [5]
+  .text              ro code  0x8000326c   0x130  I64DivMod.o [5]
+  .text              ro code  0x8000339c   0x17c  I32DivMod.o [5]
+  .text              ro code  0x80003518     0x4  I64DivZer.o [5]
+  .text              ro code  0x8000351c     0x4  IntDivZer.o [5]
+  .text              ro code  0x80003520   0x340  system_MCIMX6G3.o [1]
+  Veneer             ro code  0x80003860     0x8  - Linker created -
+  .text              ro code  0x80003868   0x238  clock_config.o [1]
+  .text              ro code  0x80003aa0    0x9c  pin_mux.o [1]
+  .rodata            const    0x80003b3c    0x74  clock_config.o [1]
+  .rodata            const    0x80003bb0    0x74  fsl_uart.o [1]
+  .rodata            const    0x80003c24    0x70  fsl_uart.o [1]
+  .rodata            const    0x80003c94    0x70  fsl_uart.o [1]
+  .text              ro code  0x80003d04    0x6c  startup_MCIMX6G3.o [1]
+  .text              ro code  0x80003d70    0x5c  startup_MCIMX6G3.o [1]
+  .rodata            const    0x80003dcc    0x48  fsl_uart.o [1]
+  .rodata            const    0x80003e14    0x40  fsl_uart.o [1]
+  .text              ro code  0x80003e54    0x40  zero_init3.o [5]
+  .rodata            const    0x80003e94    0x30  fsl_uart.o [1]
+  .text              ro code  0x80003ec4    0x30  data_init.o [5]
+  .rodata            const    0x80003ef4    0x2c  fsl_common.o [1]
+  .text              ro code  0x80003f20    0x2c  hello_world.o [1]
+  .text              ro code  0x80003f4c    0x2c  cmain.o [5]
+  .text              ro code  0x80003f78     0x4  low_level_init.o [3]
+  Veneer             ro code  0x80003f7c     0x8  - Linker created -
+  .text              ro code  0x80003f84     0x4  exit.o [3]
+  .text              ro code  0x80003f88    0x14  exit.o [6]
+  .text              ro code  0x80003f9c    0x10  cexit.o [5]
+  .text              ro code  0x80003fac    0x2c  copy_init3.o [5]
+  .text              ro code  0x80003fd8    0x28  fpinit.o [4]
+  .rodata            const    0x80004000    0x24  fsl_uart.o [1]
+  .iar.init_table    const    0x80004024    0x40  - Linker created -
+  .rodata            const    0x80004064    0x20  clock_config.o [1]
+  .rodata            const    0x80004084    0x1c  fsl_uart.o [1]
+  .rodata            const    0x800040a0    0x14  fsl_uart.o [1]
+  .rodata            const    0x800040b4    0x10  fsl_clock.o [1]
+  .rodata            const    0x800040c4    0x10  hello_world.o [1]
+  .rodata            const    0x800040d4     0xc  fsl_uart.o [1]
+  .rodata            const    0x800040e0     0x8  fsl_uart.o [1]
+  .rodata            const    0x800040e8     0x8  fsl_uart.o [1]
+  .rodata            const    0x800040f0     0x4  board.o [1]
+  .rodata            const    0x800040f4     0x4  board.o [1]
+  .rodata            const    0x800040f8     0x4  board.o [1]
+  .rodata            const    0x800040fc     0x4  board.o [1]
+  .rodata            const    0x80004100     0x4  clock_config.o [1]
+  .text              ro code  0x80004104     0x4  xreturnswi.o [6]
+  Initializer bytes  const    0x80004108     0x4  <for RW-1>
+  Initializer bytes  const    0x8000410c   0x48c  <for P2 s0>
+                            - 0x80004598  0x2558
+
+"P6-P7", part 1 of 2:                        0x4
+  RW                          0x80400000     0x4  <Block>
+    RW-1                      0x80400000     0x4  <Init block>
+      .data          inited   0x80400000     0x4  system_MCIMX6G3.o [1]
+                            - 0x80400004     0x4
+
+"P6-P7", part 2 of 2:                      0x51c
+  ZI                          0x80400004   0x51c  <Block>
+    .bss             zero     0x80400004     0x4  fsl_clock.o [1]
+    .bss             zero     0x80400008     0x4  fsl_clock.o [1]
+    .bss             zero     0x8040000c    0x10  fsl_debug_console.o [1]
+    .bss             zero     0x8040001c   0x500  system_MCIMX6G3.o [1]
+    .bss             zero     0x8040051c     0x4  system_MCIMX6G3.o [1]
+                            - 0x80400520   0x51c
+
+"P9":                                      0x400
+  CSTACK                      0x807ff800   0x400  <Block>
+    CSTACK           uninit   0x807ff800   0x400  <Block tail>
+                            - 0x807ffc00   0x400
+
+"P10":                                     0x400
+  ISTACK                      0x807ffc00   0x400  <Block>
+    ISTACK           uninit   0x807ffc00   0x400  <Block tail>
+                            - 0x80800000   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    2 destination ranges, total size 0x451c:
+          0x00900000  0x4000
+          0x80400004   0x51c
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x4:
+          0x80004108     0x4
+    1 destination range, total size 0x4:
+          0x80400000     0x4
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x48c:
+          0x8000410c   0x48c
+    1 destination range, total size 0x48c:
+          0x00904000   0x48c
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                ro code  rw code  ro data  rw data
+    ------                -------  -------  -------  -------
+C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\obj: [1]
+    board.o                   900                16   16 384
+    clock_config.o            568               152
+    clock_config_ocram.o             1 164    1 164
+    fsl_clock.o               656                16        8
+    fsl_common.o               28                44
+    fsl_debug_console.o     1 186                         16
+    fsl_uart.o              1 504               636
+    hello_world.o              44                16
+    pin_mux.o                 156
+    startup_MCIMX6G3.o        260
+    system_MCIMX6G3.o         832                 4    1 288
+    --------------------------------------------------------
+    Total:                  6 134    1 164    2 048   17 696
+
+command line: [2]
+    --------------------------------------------------------
+    Total:
+
+dl7Sx_tln.a: [3]
+    exit.o                      4
+    low_level_init.o            4
+    --------------------------------------------------------
+    Total:                      8
+
+m7Sx_tlv.a: [4]
+    fpinit.o                   40
+    --------------------------------------------------------
+    Total:                     40
+
+rt7Sx_tl.a: [5]
+    ABImemcpy.o               176
+    ABImemset.o               116
+    I32DivMod.o               380
+    I64DivMod.o               304
+    I64DivZer.o                 4
+    IntDivZer.o                 4
+    cexit.o                    16
+    cmain.o                    44
+    copy_init3.o               44
+    data_init.o                48
+    strlen.o                   84
+    zero_init3.o               64
+    --------------------------------------------------------
+    Total:                  1 284
+
+sh7Sxs_l.a: [6]
+    exit.o                     20
+    xreturnswi.o                4
+    --------------------------------------------------------
+    Total:                     24
+
+    Gaps                        2
+    Linker created             16                64    2 304
+------------------------------------------------------------
+    Grand Total:            7 508    1 164    2 112   20 000
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x80004024           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x80004064           --   Gb  - Linker created -
+?main                   0x80003f4c          Code  Gb  cmain.o [5]
+BOARD_BootClockGate     0x80003981    0x30  Code  Lc  clock_config.o [1]
+BOARD_BootClockRUN      0x800039b1    0x84  Code  Gb  clock_config.o [1]
+BOARD_DebugConsoleSrcFreq
+                        0x80002e27    0x40  Code  Gb  board.o [1]
+BOARD_InitDebugConsole  0x80002e67    0x18  Code  Gb  board.o [1]
+BOARD_InitMemory        0x80002cc1   0x166  Code  Gb  board.o [1]
+BOARD_InitPins          0x80003ad1    0x56  Code  Gb  pin_mux.o [1]
+BOARD_SetRunClock       0x00904001   0x48c  Code  Gb  clock_config_ocram.o [1]
+CLOCK_ControlGate       0x80002041    0x50  Code  Lc  fsl_uart.o [1]
+CLOCK_DeinitAudioPll    0x80002f6b     0xc  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitEnetPll     0x80002f83     0xc  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitUsb2Pll     0x80002f61     0xa  Code  Gb  fsl_clock.o [1]
+CLOCK_DeinitVideoPll    0x80002f77     0xc  Code  Gb  fsl_clock.o [1]
+CLOCK_EnableClock       0x80002091    0x10  Code  Lc  fsl_uart.o [1]
+CLOCK_GetDiv            0x80002c81    0x2e  Code  Lc  board.o [1]
+CLOCK_GetMux            0x80002c59    0x28  Code  Lc  board.o [1]
+CLOCK_GetMux            0x800038db    0x28  Code  Lc  clock_config.o [1]
+CLOCK_GetOscFreq        0x80002caf    0x12  Code  Lc  board.o [1]
+CLOCK_GetOscFreq        0x80002f2d    0x18  Code  Lc  fsl_clock.o [1]
+CLOCK_GetPllFreq        0x80002f8f   0x1dc  Code  Gb  fsl_clock.o [1]
+CLOCK_InitArmPll        0x80002f45    0x1c  Code  Gb  fsl_clock.o [1]
+CLOCK_SetDiv            0x80003903    0x72  Code  Lc  clock_config.o [1]
+CLOCK_SetMux            0x80003869    0x72  Code  Lc  clock_config.o [1]
+CLOCK_SetRtcXtalFreq    0x8000397b     0x6  Code  Lc  clock_config.o [1]
+CLOCK_SetXtalFreq       0x80003975     0x6  Code  Lc  clock_config.o [1]
+CSTACK$$Base            0x807ff800           --   Gb  - Linker created -
+CSTACK$$Limit           0x807ffc00           --   Gb  - Linker created -
+DbgConsole_ConvertRadixNumToString
+                        0x800027a1    0xcc  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_Getchar      0x80002737    0x2e  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_Init         0x80002681    0x66  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_Printf       0x800026e7    0x2e  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_PrintfFormattedData
+                        0x8000286d   0x272  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_PrintfPaddingCharacter
+                        0x80002775    0x2c  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_Putchar      0x80002715    0x22  Code  Gb  fsl_debug_console.o [1]
+GIC_Init                0x80003669    0x54  Code  Lc  system_MCIMX6G3.o [1]
+IOMUXC_SetPinConfig     0x80003ac1    0x10  Code  Lc  pin_mux.o [1]
+IOMUXC_SetPinMux        0x80003aa1    0x20  Code  Lc  pin_mux.o [1]
+ISTACK$$Base            0x807ffc00           --   Gb  - Linker created -
+ISTACK$$Limit           0x80800000           --   Gb  - Linker created -
+L1C_InvalidateDataCacheAll
+                        0x8000365f     0xa  Code  Lc  system_MCIMX6G3.o [1]
+L1C_InvalidateInstructionCacheAll
+                        0x8000355f    0x12  Code  Lc  system_MCIMX6G3.o [1]
+L1C_OpDataCacheAll      0x80003571    0xee  Code  Lc  system_MCIMX6G3.o [1]
+MMU_ConfigSection       0x80002b89    0xb0  Code  Lc  board.o [1]
+MMU_Enable              0x80002c41    0x18  Code  Lc  board.o [1]
+MMU_Init                0x80002b53    0x36  Code  Lc  board.o [1]
+MMU_InvalidateTLB       0x80002c39     0x8  Code  Lc  board.o [1]
+MMU_L1Table             0x00900000  0x4000  Data  Lc  board.o [1]
+NonCacheable$$Base      0x00000000           --   Gb  - Linker created -
+NonCacheable$$Length    0x00000000           --   Gb  - Linker created -
+RSTACK$$Base            0x0091ff00           --   Gb  - Linker created -
+RSTACK$$Limit           0x00920000           --   Gb  - Linker created -
+RW$$Base                0x80400000           --   Gb  - Linker created -
+RW$$Limit               0x80400004           --   Gb  - Linker created -
+Region$$Table$$Base     0x80004024           --   Gb  - Linker created -
+Region$$Table$$Limit    0x80004064           --   Gb  - Linker created -
+SystemCoreClock         0x80400000     0x4  Data  Gb  system_MCIMX6G3.o [1]
+SystemCoreClockUpdate   0x80003723    0xbc  Code  Gb  system_MCIMX6G3.o [1]
+SystemInit              0x800036bd    0x66  Code  Gb  system_MCIMX6G3.o [1]
+SystemIrqHandler        0x80003815    0x4c  Code  Wk  system_MCIMX6G3.o [1]
+UART_ClearStatusFlag    0x800024f9    0x1c  Code  Gb  fsl_uart.o [1]
+UART_Disable            0x800020c5     0xe  Code  Lc  fsl_uart.o [1]
+UART_Enable             0x800020b7     0xe  Code  Lc  fsl_uart.o [1]
+UART_EnableAutoBaudRate
+                        0x80002153    0x2e  Code  Lc  fsl_uart.o [1]
+UART_EnableRx           0x8000265f    0x22  Code  Lc  fsl_debug_console.o [1]
+UART_EnableTx           0x8000263d    0x22  Code  Lc  fsl_debug_console.o [1]
+UART_GetDefaultConfig   0x800022d5    0x44  Code  Gb  fsl_uart.o [1]
+UART_GetInstance        0x80002181    0x38  Code  Gb  fsl_uart.o [1]
+UART_Init               0x800021b9   0x11c  Code  Gb  fsl_uart.o [1]
+UART_ReadBlocking       0x80002551    0x86  Code  Gb  fsl_uart.o [1]
+UART_ReadByte           0x800020d9     0x6  Code  Lc  fsl_uart.o [1]
+UART_SetBaudRate        0x80002319   0x1e0  Code  Gb  fsl_uart.o [1]
+UART_SetRxFifoWatermark
+                        0x8000211d    0x36  Code  Lc  fsl_uart.o [1]
+UART_SetTxFifoWatermark
+                        0x800020df    0x3e  Code  Lc  fsl_uart.o [1]
+UART_SoftwareReset      0x800020a1    0x16  Code  Lc  fsl_uart.o [1]
+UART_WriteBlocking      0x80002515    0x3c  Code  Gb  fsl_uart.o [1]
+UART_WriteByte          0x800020d3     0x6  Code  Lc  fsl_uart.o [1]
+ZI$$Base                0x80400004           --   Gb  - Linker created -
+ZI$$Limit               0x80400520           --   Gb  - Linker created -
+__VECTOR_TABLE {Abs}    0x80002000          Data  Gb  command line/config [2]
+__aeabi_assert          0x80002621    0x1c  Code  Gb  fsl_common.o [1]
+__aeabi_idiv0           0x8000351c          Code  Gb  IntDivZer.o [5]
+__aeabi_ldiv0           0x80003518          Code  Gb  I64DivZer.o [5]
+__aeabi_memcpy4         0x800031bc          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x800031bc          Code  Gb  ABImemcpy.o [5]
+__aeabi_memset          0x80002eb8          Code  Gb  ABImemset.o [5]
+__aeabi_uidiv           0x8000339c          Code  Gb  I32DivMod.o [5]
+__aeabi_uidivmod        0x8000339c          Code  Gb  I32DivMod.o [5]
+__aeabi_uldivmod        0x8000326c          Code  Gb  I64DivMod.o [5]
+__cmain                 0x80003f4c          Code  Gb  cmain.o [5]
+__exit                  0x80003f89    0x14  Code  Gb  exit.o [6]
+__get_ACTLR             0x8000353b     0x6  Code  Lc  system_MCIMX6G3.o [1]
+__get_CBAR              0x80003559     0x6  Code  Lc  system_MCIMX6G3.o [1]
+__get_CPACR             0x80003547     0x6  Code  Lc  system_MCIMX6G3.o [1]
+__get_FPEXC             0x80003521     0x8  Code  Lc  system_MCIMX6G3.o [1]
+__get_SCTLR             0x80002b35     0x6  Code  Lc  board.o [1]
+__get_SCTLR             0x8000352f     0x6  Code  Lc  system_MCIMX6G3.o [1]
+__iar_Memset            0x80002eb8          Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x80002ec0          Code  Gb  ABImemset.o [5]
+__iar_copy_init3        0x80003fad    0x2c  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x80003ec5    0x30  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x80003fec          Code  Gb  fpinit.o [4]
+__iar_init_vfp_v6       0x80003fd8          Code  Gb  fpinit.o [4]
+__iar_program_start     0x80003d70          Code  Gb  startup_MCIMX6G3.o [1]
+__iar_return_from_swi   0x80004104     0x4  Code  Gb  xreturnswi.o [6]
+__iar_zero_init3        0x80003e55    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x80003f79     0x4  Code  Gb  low_level_init.o [3]
+__set_ACTLR             0x80003541     0x6  Code  Lc  system_MCIMX6G3.o [1]
+__set_CPACR             0x8000354d     0x6  Code  Lc  system_MCIMX6G3.o [1]
+__set_DACR              0x80002b4d     0x6  Code  Lc  board.o [1]
+__set_FPEXC             0x80003529     0x6  Code  Lc  system_MCIMX6G3.o [1]
+__set_SCTLR             0x80002b3b     0x6  Code  Lc  board.o [1]
+__set_SCTLR             0x80003535     0x6  Code  Lc  system_MCIMX6G3.o [1]
+__set_TTBCR             0x80002b47     0x6  Code  Lc  board.o [1]
+__set_TTBR0             0x80002b41     0x6  Code  Lc  board.o [1]
+__set_VBAR              0x80003553     0x6  Code  Lc  system_MCIMX6G3.o [1]
+__vector_table          0x80002000          Data  Gb  startup_MCIMX6G3.o [1]
+_call_main              0x80003f60          Code  Gb  cmain.o [5]
+_exit                   0x80003f9c          Code  Gb  cexit.o [5]
+_main                   0x80003f68          Code  Gb  cmain.o [5]
+exit                    0x80003f85     0x4  Code  Gb  exit.o [3]
+g_ccmConfigArmPll       0x80004100     0x4  Data  Gb  clock_config.o [1]
+g_rtcXtalFreq           0x80400008     0x4  Data  Gb  fsl_clock.o [1]
+g_xtalFreq              0x80400004     0x4  Data  Gb  fsl_clock.o [1]
+irqNesting              0x8040051c     0x4  Data  Lc  system_MCIMX6G3.o [1]
+irqTable                0x8040001c   0x500  Data  Lc  system_MCIMX6G3.o [1]
+main                    0x80003f21    0x2c  Code  Gb  hello_world.o [1]
+s_debugConsole          0x8040000c    0x10  Data  Lc  fsl_debug_console.o [1]
+s_mmuBufferAttr         0x800040fc     0x4  Data  Lc  board.o [1]
+s_mmuDevAttr            0x800040f0     0x4  Data  Lc  board.o [1]
+s_mmuRamAttr            0x800040f8     0x4  Data  Lc  board.o [1]
+s_mmuRomAttr            0x800040f4     0x4  Data  Lc  board.o [1]
+s_uartBases             0x80004000    0x24  Data  Lc  fsl_uart.o [1]
+s_uartClock             0x800040a0    0x14  Data  Lc  fsl_uart.o [1]
+strlen                  0x80002ae0          Code  Gb  strlen.o [5]
+
+
+[1] = C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_debug\obj
+[2] = command line
+[3] = dl7Sx_tln.a
+[4] = m7Sx_tlv.a
+[5] = rt7Sx_tl.a
+[6] = sh7Sxs_l.a
+
+   7 508 bytes of readonly  code memory
+   1 164 bytes of readwrite code memory
+   2 112 bytes of readonly  data memory
+  20 000 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

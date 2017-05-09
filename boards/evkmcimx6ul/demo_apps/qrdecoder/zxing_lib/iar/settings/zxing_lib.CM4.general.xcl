@@ -1,0 +1,13 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.80.2\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.80.2\arm\bin\armjlink2.dll" 
+
+"C:\Ben_Work\Apps_Software\zxing_lib\iar\CM4\Exe\zxing_lib.a" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.80.2\arm\bin\armbat.dll" 
+
+--flash_loader "C:\Ben_Work\Apps_Software\zxing_lib\iar\k8x.board" 
+
+
+
+

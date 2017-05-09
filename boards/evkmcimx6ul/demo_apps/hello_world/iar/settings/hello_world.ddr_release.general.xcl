@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.80.2\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.80.2\arm\bin\armjlink2.dll" 
+
+"C:\Ben_Work\Apps_Software\SDK_Packages\i.MX6UL_SDK\SDK_2.2_EVK-MCIMX6UL_ER2\boards\evkmcimx6ul\demo_apps\hello_world\iar\ddr_release\hello_world.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.80.2\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.80.2\arm\config\debugger\NXP\EVK_IMX6UL_DDR3L_400MHz_16bit_V2.0_ForNewDRAM.mac" 
+
+--flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.80.2\arm\config\flashloader\NXP\FlashIMX6UL_EVL_QSPI.board" 
+
+
+
+
